@@ -21,10 +21,10 @@ const Project = () => {
 
   return (
     <>
-      <div className="photo-gallery lg:w-[1200px] mx-auto mt-[50px]">
+      <div className="photo-gallery w-[390px] lg:w-[1200px] mx-auto mt-[50px]">
         <h2 className="text-2xl font-bold mb-2 text-center">Project Gallery</h2>
-        <div className="grid grid-cols-3 gap-4 lg:gap-y-[50px] mt-[50px]">
-          {photos.slice(0, showAll ? photos.length : 9).map((photo, index) => (
+        <div className="ml-[25px] lg:ml-0 lg:w-[1200px] mx-auto grid lg:grid-cols-3 gap-4 lg:gap-y-[50px] mt-[50px]">
+          {photos.slice(0, showAll ? photos.length : 6).map((photo, index) => (
             <img
               key={index}
               src={photo}

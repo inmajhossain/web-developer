@@ -8,7 +8,7 @@ import { AiFillTwitterSquare } from "react-icons/ai";
 export default function Footer() {
   return (
     <>
-      <footer className="w-[1400px] mx-auto footer flex justify-around text-base-content p-10">
+      <footer className="lg:w-[1400px] mx-auto footer lg:flex justify-around text-base-content p-10">
         <nav>
           <h6 className="footer-title">Services</h6>
           <a className="link link-hover">Personal Website</a>

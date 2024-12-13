@@ -7,11 +7,11 @@ export default function Comments() {
       type: "carousel",
       focusAt: 1,
       animationDuration: 4000,
-      autoplay: 4500,
+      autoplay: 6500,
       autoplay: true,
       rewind: true,
-      perView: 3,
-      gap: 0,
+      perView: 4,
+      gap: 30,
       classes: {
         nav: {
           active: "[&>*]:bg-wuiSlate-700",
@@ -19,7 +19,7 @@ export default function Comments() {
       },
       breakpoints: {
         1024: {
-          perView: 2,
+          perView: 3,
         },
         640: {
           perView: 1,
@@ -35,7 +35,7 @@ export default function Comments() {
   return (
     <>
       {/*<!-- Component: Testimonial carousel --> */}
-      <div className="glide-08 relative w-[1300px] mx-auto mt-[50px]">
+      <div className=" lg:ml-[30px] glide-08 relative w-screen mx-auto mt-[50px]">
         {/*    <!-- Slides --> */}
         <div data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 pb-12">

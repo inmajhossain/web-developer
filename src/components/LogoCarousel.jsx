@@ -25,7 +25,7 @@ export default function LogoCarousel() {
           perView: 3,
         },
         640: {
-          perView: 1,
+          perView: 3,
           gap: 36,
         },
       },

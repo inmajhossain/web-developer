@@ -9,7 +9,7 @@ export default function Map() {
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7300.286577288271!2d90.35030189768018!3d23.813503229962123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1b5cae23c6f%3A0x2c075d66a1a18975!2sSHANAJ%20FURNITURE!5e0!3m2!1sen!2sbd!4v1733582422225!5m2!1sen!2sbd"
-          className="w-[1400px] mx-auto h-[600px] border-[1px] border-amber-100 p-2 rounded-md mb-[50px]"
+          className="w-[390px] lg:w-[1400px] mx-auto h-[350px] Lg:h-[700px] border-[1px] border-amber-100 p-2 rounded-md mb-[50px]"
           allowfullscreen
           loading="lazy"
         ></iframe>

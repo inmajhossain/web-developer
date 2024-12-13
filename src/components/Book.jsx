@@ -45,6 +45,7 @@ const Book = () => {
 
   return (
     <>
+      <h2 className="text-[25px] font-semibold text-center">Book a Metting</h2>
       <div className="lg:w-[1000px] mx-auto mt-[50px] mb-[50px]">
         <InlineWidget url="https://calendly.com/inmaj670/30-minutes-free-counsultancy" />
       </div>
